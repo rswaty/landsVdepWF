@@ -9,3 +9,5 @@ editor_options:
 ---
 
 Welcome to my research website.
+
+Click on this [link](parcelAcres.html) to see some basic parcel size information...and some recommendations for next steps.
