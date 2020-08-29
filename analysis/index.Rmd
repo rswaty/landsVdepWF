@@ -8,6 +8,19 @@ editor_options:
   chunk_output_type: console
 ---
 
-Welcome to my research website.
+## This site...
 
-Click on this [link](parcelAcres.html) to see some basic parcel size information...and some recommendations for next steps.
+was built in R-Studio with the [workflowR](https://jdblischak.github.io/workflowr/articles/wflow-01-getting-started.html#overview) package as a way to: 
+
+1. explore the potential of using LANDFIRE's [Vegetation Departure](https://www.landfire.gov/vdep.php) Dataset for TNC (and other) parcels
+2. demonstrate using a website to share code, data and outputs
+3. prompt more discussion about how to measure ecological condition
+
+<br> 
+<br> 
+**Map of VDEP.  Darker greens indicate areas where vegetation structure is closest to reference conditions.**
+```{r, echo=FALSE, out.width= "100%"} 
+knitr::include_graphics("VDEP_QGIS_greens.jpg")
+
+```
+
