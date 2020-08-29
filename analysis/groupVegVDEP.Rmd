@@ -1,0 +1,70 @@
+---
+title: "VDEP for LANDFIRE Grouped Vegetation Types for 2008, 2010 and 2012"
+author: "rswaty"
+date: "2020-08-28"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## Introduction
+For fun exploring VDEP for  Grouped Vegetation Types within the file Sarah Hagen sent.  Data table made in Excel Pivot table.  Pivot table work required some specific actions:
+*  Used "Label_version" (e.g. LABEL_105) as a filter to remove "non-natural" vegatation types (e.g. Burnable Ag) and "Open Water"
+*  Averages calculated in Excel
+*  Removed some Grouped Vegatation types such as Agriculture and Barren.
+
+Father-in-law used to day "Now Randy, don't accomplish something that doesn't accomplish anything", which I may have done here.
+
+
+### Install libraries
+
+```{r libraries, message=FALSE, warning=FALSE, include=FALSE}
+library(readr)
+library(ggplot2)
+library(tidyverse)
+```
+
+### Load and explore data
+
+```{r}
+
+groupVegVDEP <- read_csv("data/groupVegVDEP.csv")
+
+
+head(groupVegVDEP)
+tail(groupVegVDEP)
+str(groupVegVDEP)
+```
+
+
+
+### Make a chart
+
+```{r}
+
+groupVegVDEPchart <- groupVegVDEP %>%
+  ggplot(aes(x= Version, y = VDEP)) +
+  facet_wrap(~GroupVeg, scales = "free_x") +
+    scale_x_continuous(breaks = groupVegVDEP$Version, labels=groupVegVDEP$Version) +
+    geom_bar(stat = "identity") +
+    labs(x = "Version",
+         y = "VDEP",
+          title = "Vegetation Departure (VDEP) for LANDFIRE Grouped Vegetation Types",
+          subtitle = "Averaged across all parcels; lower VDEP = closer to reference conditions",
+          caption = "From NEY_im_f_BpS_VDEP dataset by Sarah Hagen") +
+    theme(plot.caption = element_text(hjust = 0, face= "italic"), 
+        plot.title.position = "plot", 
+        plot.caption.position =  "plot") +
+      theme_bw()
+
+groupVegVDEPchart
+```
+
+
+### Notes
+There are some Grouped Vegetation Types that show changed VDEP over time.  The changes may be at least partially driven by improvements in methodology.  
+
+
+
+
+
