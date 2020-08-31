@@ -13,7 +13,7 @@ navbar:
     href: VDEP-Protected.html
   - text: Recommendation
     href: differentApproach.html
-  - test: Data Tables
+  - text: Data Tables
     href: dataTables.html
   - text: About
     href: about.html
