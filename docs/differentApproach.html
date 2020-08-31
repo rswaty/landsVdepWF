@@ -9,9 +9,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="rswaty" />
 
+<meta name="date" content="2020-08-31" />
 
-<title>Home</title>
+<title>Recommendation</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,6 +21,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -258,6 +263,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -265,6 +333,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -323,7 +401,9 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Home</h1>
+<h1 class="title toc-ignore">Recommendation</h1>
+<h4 class="author">rswaty</h4>
+<h4 class="date">2020-08-31</h4>
 
 </div>
 
@@ -372,7 +452,7 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 </div>
 <div id="strongRMarkdownfilestronguncommittedchanges" class="panel-collapse collapse">
 <div class="panel-body">
-<p>The R Markdown file has unstaged changes. To know which version of the R Markdown file created these results, you’ll want to first commit it to the Git repo. If you’re still working on the analysis, you can ignore this warning. When you’re finished, you can run <code>wflow_publish</code> to commit the R Markdown file and build the HTML.</p>
+<p>The R Markdown is untracked by Git. To know which version of the R Markdown file created these results, you’ll want to first commit it to the Git repo. If you’re still working on the analysis, you can ignore this warning. When you’re finished, you can run <code>wflow_publish</code> to commit the R Markdown file and build the HTML.</p>
 </div>
 </div>
 </div>
@@ -413,6 +493,7 @@ Unstaged changes:
     Modified:   analysis/_site.yml
     Modified:   analysis/groupVegVDEP.Rmd
     Modified:   analysis/index.Rmd
+    Modified:   analysis/parcelAcres.Rmd
 
 </code></pre>
 <p>
@@ -425,195 +506,53 @@ Note that any generated files, e.g. HTML, png, CSS, etc., are not included in t
 <hr>
 </div>
 <div id="versions" class="tab-pane fade">
-
 <p>
-These are the previous versions of the repository in which changes were made to the R Markdown (<code>analysis/index.Rmd</code>) and HTML (<code>docs/index.html</code>) files. If you’ve configured a remote Git repository (see <code>?wflow_git_remote</code>), click on the hyperlinks in the table below to view the files as they were in that past version.
+There are no past versions. Publish this analysis with <code>wflow_publish()</code> to start tracking its development.
 </p>
-<div class="table-responsive">
-<table class="table table-condensed table-hover">
-<thead>
-<tr>
-<th>
-File
-</th>
-<th>
-Version
-</th>
-<th>
-Author
-</th>
-<th>
-Date
-</th>
-<th>
-Message
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/rswaty/landsVdepWF/blob/3bdafd5358edc352d62cc97f77ba7a084f2a8748/analysis/index.Rmd" target="_blank">3bdafd5</a>
-</td>
-<td>
-rswaty
-</td>
-<td>
-2020-08-28
-</td>
-<td>
-Added map, descriptive info on index page.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/rswaty/landsVdepWF/3bdafd5358edc352d62cc97f77ba7a084f2a8748/docs/index.html" target="_blank">3bdafd5</a>
-</td>
-<td>
-rswaty
-</td>
-<td>
-2020-08-28
-</td>
-<td>
-Added map, descriptive info on index page.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/rswaty/landsVdepWF/37cc38f50b4cc5e79ebbe88e60494227bf748847/docs/index.html" target="_blank">37cc38f</a>
-</td>
-<td>
-rswaty
-</td>
-<td>
-2020-08-28
-</td>
-<td>
-added grouveg VDEP analysis
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/rswaty/landsVdepWF/blob/e8f1d10f2e0dc4e5a62946751ff1078757e8f0e8/analysis/index.Rmd" target="_blank">e8f1d10</a>
-</td>
-<td>
-rswaty
-</td>
-<td>
-2020-08-28
-</td>
-<td>
-added parcelAcres to site_yml
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/rswaty/landsVdepWF/e8f1d10f2e0dc4e5a62946751ff1078757e8f0e8/docs/index.html" target="_blank">e8f1d10</a>
-</td>
-<td>
-rswaty
-</td>
-<td>
-2020-08-28
-</td>
-<td>
-added parcelAcres to site_yml
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/rswaty/landsVdepWF/09059628197c4f6fffd59c6de3ff07e667a84663/docs/index.html" target="_blank">0905962</a>
-</td>
-<td>
-rswaty
-</td>
-<td>
-2020-08-28
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/rswaty/landsVdepWF/fd2cf0cfcc836117dd0aa62ca7d2c8135a8a6cce/docs/index.html" target="_blank">fd2cf0c</a>
-</td>
-<td>
-rswaty
-</td>
-<td>
-2020-08-28
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/rswaty/landsVdepWF/blob/8670d1c05ab0108977be8a092738a217384bc849/analysis/index.Rmd" target="_blank">8670d1c</a>
-</td>
-<td>
-rswaty
-</td>
-<td>
-2020-08-28
-</td>
-<td>
-Start workflowr project.
-</td>
-</tr>
-</tbody>
-</table>
-</div>
 <hr>
 </div>
 </div>
 </div>
-<div id="this-site" class="section level2">
-<h2>This site…</h2>
-<p>was built in R-Studio with the <a href="https://jdblischak.github.io/workflowr/articles/wflow-01-getting-started.html#overview">workflowR</a> package as a way to:</p>
-<ol style="list-style-type: decimal">
-<li>explore the potential of using LANDFIRE’s <a href="https://www.landfire.gov/vdep.php">Vegetation Departure</a> Dataset for TNC (and other) parcels</li>
-<li>demonstrate using a website to share code, data and outputs</li>
-<li>prompt more discussion about how to measure ecological condition</li>
-</ol>
-</div>
-<div id="quick-methods" class="section level2">
-<h2>Quick methods</h2>
-<p>To assess vegetation conditions over time, and inside/outside of protected areas Sarah Hagen did a “Combine” in ArcMap then joined in attributes of the following datasets:</p>
+<div id="introduction" class="section level2">
+<h2>Introduction</h2>
+<p>While LANDFIRE’s Vegetation Departure set is robust and illustrative at large extents, it was not designed for use at small extents, and due to “improvements” (i.e., changes in methods) may or may not be useful when comparing across versions.</p>
+<p>We propose exploration of other approaches with these notes:</p>
 <ul>
-<li>LANDFIRE Vegetation Departure, Versions 105 (year 2001), 110 (2008), 130 (2012) (see <a href="https://www.landfire.gov/vdep.php" class="uri">https://www.landfire.gov/vdep.php</a>)</li>
-<li>LANDFIRE Biophysical Settings (represents historical ecosystems)</li>
-<li>TNC Parcels (<em>plus matched unprotected?</em>)</li>
+<li>it may not be possible to use a data-driven approach for small parcels</li>
+<li>expert opinion may be an option</li>
+<li>some preserves were created for single species or a small assemblage of species…not for protection of an ecosystem. It may be necessary to try and split those preserves out</li>
+<li>LANDFIRE data may be useful for larger extents</li>
 </ul>
-<p>Sarah shared data with Randy Swaty via Excel workbook. Randy then formatted data there using Pivot tables (careful! must filter, etc. appropriatedly. As of 31Aug2020 specifics not documented here), then saved specific data files as .csv files for charting in R.</p>
-<hr />
-<p><strong>Map of VDEP. Darker greens indicate areas where vegetation structure is closest to reference conditions.</strong> <img src="VDEP_QGIS_greens.jpg" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="level-of-degredation-example" class="section level2">
+<h2>Level of degredation example</h2>
+<p>Do what the Michigan Chapter has done: develop rulesets to apply to combinations of LANDFIRE data. More specifically, for a landscape of interest they noted:</p>
+<ul>
+<li>it was dominated by Northern Hardwoods</li>
+<li>that ideally this ecosystem would be mostly tall trees, with canopy coverage &gt; 70%</li>
+<li>there has been a history of plantations and heavy removals of trees within this ecosystem</li>
+</ul>
+<p>With these “rules” we combined LANDFIRE Biophysical Settings, Existing Vegetation Cover/Height/Type data and applied these rules to create a “degraded map” of the Northern Hardwoods within the landscape.</p>
+<p><strong>Degradation level of Northern Hardwoods in the Michigamme Highlands of upper Michigan</strong></p>
+<p><img src="michiDegraded2.jpg" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="what-about-the-entire-country" class="section level2">
+<h2>What about the entire country?</h2>
+<p>We think that it could be possible to create a general set of “rules” that would be more generalized than VDEP, and could be more informative if refined and reviewed. More specifically we would:</p>
+<ul>
+<li>Create canopy attribute rules per groups of ecosystems (most likely by fire regime characteristics; could also add in deciduous and/or coniferous, etc. to stratify)</li>
+<li>Combine necessary data, apply rulesets</li>
+<li>Review</li>
+</ul>
+</div>
+<div id="conceptual-examples" class="section level2">
+<h2>Conceptual examples</h2>
+<p>The examples below would need review and refinement, but might help illustrate the concept:</p>
+<ul>
+<li>Prairies: any vegetation except herbaceous is suspect, all invasives bad. For remaining grassland ecosystem scale depredation by level of shrubs and trees</li>
+<li>Fire dependent deciduous (e.g., oak-hickories): canopy cover over 70% is bad. Conversion to maples bad. Scale degredation by canopy cover and level of conversion.</li>
+<li>Shrub ecosystems out west, non-fire dependent: look to level of invasive herbaceous, and possibly fuel loading. Scale by invasives and particular fuel types.</li>
+</ul>
 </div>
 
 
@@ -630,6 +569,8 @@ footer is added to webpages before the MathJax javascript. -->
 </script>
 
 
+</div>
+</div>
 
 </div>
 
@@ -662,6 +603,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

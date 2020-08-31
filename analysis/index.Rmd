@@ -16,8 +16,17 @@ was built in R-Studio with the [workflowR](https://jdblischak.github.io/workflow
 2. demonstrate using a website to share code, data and outputs
 3. prompt more discussion about how to measure ecological condition
 
-<br> 
-<br> 
+## Quick methods
+To assess vegetation conditions over time, and inside/outside of protected areas Sarah Hagen did a "Combine" in ArcMap then joined in attributes of the following datasets:
+
+* LANDFIRE Vegetation Departure, Versions 105 (year 2001), 110 (2008), 130 (2012) (see https://www.landfire.gov/vdep.php)
+* LANDFIRE Biophysical Settings (represents historical ecosystems)
+* TNC Parcels (*plus matched unprotected?*)
+
+Sarah shared data with Randy Swaty via Excel workbook.  Randy then formatted data there using Pivot tables (careful! must filter, etc. appropriatedly.  As of 31Aug2020 specifics not documented here), then saved specific data files as .csv files for charting in R.
+
+***
+
 **Map of VDEP.  Darker greens indicate areas where vegetation structure is closest to reference conditions.**
 ```{r, echo=FALSE, out.width= "100%"} 
 knitr::include_graphics("VDEP_QGIS_greens.jpg")

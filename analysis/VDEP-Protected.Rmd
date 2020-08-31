@@ -1,0 +1,77 @@
+---
+title: "Vegetation Departure for Parcels"
+author: "rswaty"
+date: "2020-08-31"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## Introduction
+The main questions of this work are "does vegetation condition change over time?' and "is there a difference in vegetation condition inside and outside of TNC* protected areas?"
+
+Here we explore Vegetation Departure (VDEP) by version, inside and outside of TNC protected (fee and easement, *may not be currently owned by TNC*). 
+
+
+
+## Load libraries
+
+```{r message=FALSE, warning=FALSE}
+library(readr)
+library(tidyverse)
+library(yarrr)
+```
+
+## Read in and pivot data
+
+
+```{r}
+# load data
+yesNoVdep <- read_csv("data/yesNoVdep.csv")
+
+head(yesNoVdep)
+
+#  pivot long
+vdepLong <- yesNoVdep %>%
+  pivot_longer(!Protected, names_to = "Version", values_to = "VDEP")
+
+head(vdepLong)
+```
+
+## Make a Pirate Plot
+This type of plot shows (https://bookdown.org/ndphillips/YaRrr/pirateplot.html):
+* VDEP of each parcel (dots)
+* Mean (central horizontal bar)
+* Density ("bean" or colored polygon)
+* Standard Deviation (box)
+
+```{r}
+
+yarrr::pirateplot(formula = VDEP ~ Protected + Version, 
+                  data = vdepLong,           
+                  main = "Vegetation Depature over 3 versions",
+                  theme = 0,
+                  inf.method = 'sd',
+                  pal = "southpark", # southpark color palette
+                  bean.f.o = .6, # Bean fill
+                  point.o = .3, # Points
+                  inf.f.o = .3, # Inference fill
+                  inf.b.o = .8, # Inference border
+                  avg.line.o = 0.7, # Average line
+                  bar.f.o = .3, # Bar
+                  inf.f.col = "white", # Inf fill col
+                  inf.b.col = "black", # Inf border col
+                  avg.line.col = "black", # avg line col
+                  bar.f.col = gray(.8), # bar filling color
+                  point.pch = 21,
+                  point.bg = "white",
+                  point.col = "black",
+                  point.cex = .7)
+
+```
+
+## Quick Take Home Messages
+
+* VDEP does not vary over time, or between protection level.  
+* Any variation could be due to methods, or actual change in vegetation conditions
+* Recommend different approach

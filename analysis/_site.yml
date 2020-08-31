@@ -1,14 +1,20 @@
 name: landsVdep
 output_dir: ../docs
 navbar:
-  title: landsVdep
+  title: Vegetation Departure Demo Site
   left:
   - text: Home
     href: index.html
   - text: Parcel Size
     href: parcelAcres.html
-  - text: Group Veg landsVdep
+  - text: Group Veg VDEP
     href: groupVegVDEP.html
+  - text: VDEP
+    href: VDEP-Protected.html
+  - text: Recommendation
+    href: differentApproach.html
+  - test: Data Tables
+    href: dataTables.html
   - text: About
     href: about.html
   - text: License

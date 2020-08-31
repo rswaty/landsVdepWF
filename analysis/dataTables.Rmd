@@ -1,0 +1,58 @@
+---
+title: "Data Tables"
+author: "rswaty"
+date: "2020-08-31"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## Introduction
+This page includes some raw data tables for exploration.
+
+
+## Load libraries
+
+```{r message=FALSE, warning=FALSE}
+library(readr)
+library(DT)
+```
+
+## Load data
+
+```{r message=FALSE, warning=FALSE}
+vdepParcelAcres <- read_csv("data/vdepParcelAcres.csv")
+
+raw <- read_csv("data/raw.csv")
+
+acresBpS <- read_csv("data/acresBpS.csv")
+```
+
+## Three data tables
+Just to illustrate possibilities and the structure of the data we load in three datatables.  You can search and sort.
+
+### Acres per BpS, inside/outside of protected status
+
+```{r}
+datatable(acresBpS, class = 'cell-border stripe')
+```
+
+<br>
+
+###  Vegetation Departure by Parcel over the 3 LANDFIRE versions
+
+```{r}
+datatable(vdepParcelAcres, class = 'cell-border stripe')
+```
+
+
+### Raw data
+This is the data as processed by Sarah Hagen
+```{r}
+datatable(raw, class = 'cell-border stripe')
+```
+
+
+
+
+

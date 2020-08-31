@@ -7,4 +7,21 @@ editor_options:
   chunk_output_type: console
 ---
 
-Describe your project.
+Not a PowerPoint and this is not a map, just a bit of geekiness.
+
+```{r}
+library(ggplot2)
+df <- data.frame(x=0, y=0)
+
+for (i in 2:2500)
+{
+  a <- sample(0:15,1)
+  df[i,1] <- df[i-1,1]+(cos(pi/8*a))
+  df[i,2] <- df[i-1,2]+(sin(pi/8*a))  
+}
+
+ggplot(df, aes(x,y)) + geom_polygon(color = "blue", fill = "darkgreen") + 
+  theme_void()
+
+```
+

@@ -1,5 +1,5 @@
 ---
-title: "VDEP for LANDFIRE Grouped Vegetation Types for 2008, 2010 and 2012"
+title: "VDEP for Grouped Vegetation Types"
 author: "rswaty"
 date: "2020-08-28"
 output: workflowr::wflow_html
@@ -9,14 +9,15 @@ editor_options:
 
 ## Introduction
 For fun exploring VDEP for  Grouped Vegetation Types within the file Sarah Hagen sent.  Data table made in Excel Pivot table.  Pivot table work required some specific actions:
-*  Used "Label_version" (e.g. LABEL_105) as a filter to remove "non-natural" vegatation types (e.g. Burnable Ag) and "Open Water"
+
+*  Used "Label_version" (e.g. LABEL_105) as a filter to remove "non-natural" vegetation types (e.g. Burnable Ag) and "Open Water"
 *  Averages calculated in Excel
 *  Removed some Grouped Vegatation types such as Agriculture and Barren.
 
 Father-in-law used to day "Now Randy, don't accomplish something that doesn't accomplish anything", which I may have done here.
 
 
-### Install libraries
+## Load libraries
 
 ```{r libraries, message=FALSE, warning=FALSE, include=FALSE}
 library(readr)
@@ -24,7 +25,7 @@ library(ggplot2)
 library(tidyverse)
 ```
 
-### Load and explore data
+## Load and explore data
 
 ```{r}
 
@@ -38,7 +39,7 @@ str(groupVegVDEP)
 
 
 
-### Make a chart
+## Make a chart
 
 ```{r}
 
@@ -61,8 +62,10 @@ groupVegVDEPchart
 ```
 
 
-### Notes
-There are some Grouped Vegetation Types that show changed VDEP over time.  The changes may be at least partially driven by improvements in methodology.  
+## Quick Take Home Messages
+* There are some Grouped Vegetation Types that show changed VDEP over time.  
+* The changes may be at least partially driven by improvements in methodology.  
+* Might be interesting to look at individual BpSs, at least the top most mapped
 
 
 

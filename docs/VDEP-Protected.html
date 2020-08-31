@@ -9,9 +9,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="rswaty" />
 
+<meta name="date" content="2020-08-31" />
 
-<title>Home</title>
+<title>Vegetation Departure for Parcels</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,6 +21,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -258,6 +263,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -265,6 +333,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -323,7 +401,9 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Home</h1>
+<h1 class="title toc-ignore">Vegetation Departure for Parcels</h1>
+<h4 class="author">rswaty</h4>
+<h4 class="date">2020-08-31</h4>
 
 </div>
 
@@ -351,7 +431,7 @@ $(document).ready(function () {
 <strong>Last updated:</strong> 2020-08-31
 </p>
 <p>
-<strong>Checks:</strong> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 1 <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> 1
+<strong>Checks:</strong> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 6 <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> 1
 </p>
 <p>
 <strong>Knit directory:</strong> <code>landsVdepWF/</code> <span class="glyphicon glyphicon-question-sign" aria-hidden="true" title="This is the local directory in which the code in this file was executed."> </span>
@@ -372,7 +452,67 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 </div>
 <div id="strongRMarkdownfilestronguncommittedchanges" class="panel-collapse collapse">
 <div class="panel-body">
-<p>The R Markdown file has unstaged changes. To know which version of the R Markdown file created these results, you’ll want to first commit it to the Git repo. If you’re still working on the analysis, you can ignore this warning. When you’re finished, you can run <code>wflow_publish</code> to commit the R Markdown file and build the HTML.</p>
+<p>The R Markdown is untracked by Git. To know which version of the R Markdown file created these results, you’ll want to first commit it to the Git repo. If you’re still working on the analysis, you can ignore this warning. When you’re finished, you can run <code>wflow_publish</code> to commit the R Markdown file and build the HTML.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongEnvironmentstrongempty"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Environment:</strong> empty </a>
+</p>
+</div>
+<div id="strongEnvironmentstrongempty" class="panel-collapse collapse">
+<div class="panel-body">
+<p>Great job! The global environment was empty. Objects defined in the global environment can affect the analysis in your R Markdown file in unknown ways. For reproduciblity it’s best to always run the code in an empty environment.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongSeedstrongcodesetseed20200828code"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Seed:</strong> <code>set.seed(20200828)</code> </a>
+</p>
+</div>
+<div id="strongSeedstrongcodesetseed20200828code" class="panel-collapse collapse">
+<div class="panel-body">
+<p>The command <code>set.seed(20200828)</code> was run prior to running the code in the R Markdown file. Setting a seed ensures that any results that rely on randomness, e.g. subsampling or permutations, are reproducible.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongSessioninformationstrongrecorded"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Session information:</strong> recorded </a>
+</p>
+</div>
+<div id="strongSessioninformationstrongrecorded" class="panel-collapse collapse">
+<div class="panel-body">
+<p>Great job! Recording the operating system, R version, and package versions is critical for reproducibility.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongCachestrongnone"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Cache:</strong> none </a>
+</p>
+</div>
+<div id="strongCachestrongnone" class="panel-collapse collapse">
+<div class="panel-body">
+<p>Nice! There were no cached chunks for this analysis, so you can be confident that you successfully produced the results during this run.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongFilepathsstrongrelative"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>File paths:</strong> relative </a>
+</p>
+</div>
+<div id="strongFilepathsstrongrelative" class="panel-collapse collapse">
+<div class="panel-body">
+<p>Great job! Using relative paths to the files within your workflowr project makes it easier to run your code on other machines.</p>
 </div>
 </div>
 </div>
@@ -425,195 +565,148 @@ Note that any generated files, e.g. HTML, png, CSS, etc., are not included in t
 <hr>
 </div>
 <div id="versions" class="tab-pane fade">
-
 <p>
-These are the previous versions of the repository in which changes were made to the R Markdown (<code>analysis/index.Rmd</code>) and HTML (<code>docs/index.html</code>) files. If you’ve configured a remote Git repository (see <code>?wflow_git_remote</code>), click on the hyperlinks in the table below to view the files as they were in that past version.
+There are no past versions. Publish this analysis with <code>wflow_publish()</code> to start tracking its development.
 </p>
-<div class="table-responsive">
-<table class="table table-condensed table-hover">
-<thead>
-<tr>
-<th>
-File
-</th>
-<th>
-Version
-</th>
-<th>
-Author
-</th>
-<th>
-Date
-</th>
-<th>
-Message
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/rswaty/landsVdepWF/blob/3bdafd5358edc352d62cc97f77ba7a084f2a8748/analysis/index.Rmd" target="_blank">3bdafd5</a>
-</td>
-<td>
-rswaty
-</td>
-<td>
-2020-08-28
-</td>
-<td>
-Added map, descriptive info on index page.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/rswaty/landsVdepWF/3bdafd5358edc352d62cc97f77ba7a084f2a8748/docs/index.html" target="_blank">3bdafd5</a>
-</td>
-<td>
-rswaty
-</td>
-<td>
-2020-08-28
-</td>
-<td>
-Added map, descriptive info on index page.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/rswaty/landsVdepWF/37cc38f50b4cc5e79ebbe88e60494227bf748847/docs/index.html" target="_blank">37cc38f</a>
-</td>
-<td>
-rswaty
-</td>
-<td>
-2020-08-28
-</td>
-<td>
-added grouveg VDEP analysis
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/rswaty/landsVdepWF/blob/e8f1d10f2e0dc4e5a62946751ff1078757e8f0e8/analysis/index.Rmd" target="_blank">e8f1d10</a>
-</td>
-<td>
-rswaty
-</td>
-<td>
-2020-08-28
-</td>
-<td>
-added parcelAcres to site_yml
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/rswaty/landsVdepWF/e8f1d10f2e0dc4e5a62946751ff1078757e8f0e8/docs/index.html" target="_blank">e8f1d10</a>
-</td>
-<td>
-rswaty
-</td>
-<td>
-2020-08-28
-</td>
-<td>
-added parcelAcres to site_yml
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/rswaty/landsVdepWF/09059628197c4f6fffd59c6de3ff07e667a84663/docs/index.html" target="_blank">0905962</a>
-</td>
-<td>
-rswaty
-</td>
-<td>
-2020-08-28
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/rswaty/landsVdepWF/fd2cf0cfcc836117dd0aa62ca7d2c8135a8a6cce/docs/index.html" target="_blank">fd2cf0c</a>
-</td>
-<td>
-rswaty
-</td>
-<td>
-2020-08-28
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/rswaty/landsVdepWF/blob/8670d1c05ab0108977be8a092738a217384bc849/analysis/index.Rmd" target="_blank">8670d1c</a>
-</td>
-<td>
-rswaty
-</td>
-<td>
-2020-08-28
-</td>
-<td>
-Start workflowr project.
-</td>
-</tr>
-</tbody>
-</table>
-</div>
 <hr>
 </div>
 </div>
 </div>
-<div id="this-site" class="section level2">
-<h2>This site…</h2>
-<p>was built in R-Studio with the <a href="https://jdblischak.github.io/workflowr/articles/wflow-01-getting-started.html#overview">workflowR</a> package as a way to:</p>
-<ol style="list-style-type: decimal">
-<li>explore the potential of using LANDFIRE’s <a href="https://www.landfire.gov/vdep.php">Vegetation Departure</a> Dataset for TNC (and other) parcels</li>
-<li>demonstrate using a website to share code, data and outputs</li>
-<li>prompt more discussion about how to measure ecological condition</li>
-</ol>
+<div id="introduction" class="section level2">
+<h2>Introduction</h2>
+<p>The main questions of this work are “does vegetation condition change over time?’ and”is there a difference in vegetation condition inside and outside of TNC* protected areas?"</p>
+<p>Here we explore Vegetation Departure (VDEP) by version, inside and outside of TNC protected (fee and easement, <em>may not be currently owned by TNC</em>).</p>
 </div>
-<div id="quick-methods" class="section level2">
-<h2>Quick methods</h2>
-<p>To assess vegetation conditions over time, and inside/outside of protected areas Sarah Hagen did a “Combine” in ArcMap then joined in attributes of the following datasets:</p>
+<div id="load-libraries" class="section level2">
+<h2>Load libraries</h2>
+<pre class="r"><code>library(readr)
+library(tidyverse)
+library(yarrr)</code></pre>
+</div>
+<div id="read-in-and-pivot-data" class="section level2">
+<h2>Read in and pivot data</h2>
+<pre class="r"><code># load data
+yesNoVdep &lt;- read_csv(&quot;data/yesNoVdep.csv&quot;)</code></pre>
+<pre><code>Parsed with column specification:
+cols(
+  Protected = col_character(),
+  `2001` = col_double(),
+  `2008` = col_double(),
+  `2012` = col_double()
+)</code></pre>
+<pre class="r"><code>head(yesNoVdep)</code></pre>
+<pre><code># A tibble: 6 x 4
+  Protected `2001` `2008` `2012`
+  &lt;chr&gt;      &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;
+1 No            14     15     18
+2 No            16     17     24
+3 No            17     19     40
+4 No            19     20     18
+5 No            19     20     40
+6 No            20     19     18</code></pre>
+<pre class="r"><code>#  pivot long
+vdepLong &lt;- yesNoVdep %&gt;%
+  pivot_longer(!Protected, names_to = &quot;Version&quot;, values_to = &quot;VDEP&quot;)
+
+head(vdepLong)</code></pre>
+<pre><code># A tibble: 6 x 3
+  Protected Version  VDEP
+  &lt;chr&gt;     &lt;chr&gt;   &lt;dbl&gt;
+1 No        2001       14
+2 No        2008       15
+3 No        2012       18
+4 No        2001       16
+5 No        2008       17
+6 No        2012       24</code></pre>
+</div>
+<div id="make-a-pirate-plot" class="section level2">
+<h2>Make a Pirate Plot</h2>
+<p>This type of plot shows (<a href="https://bookdown.org/ndphillips/YaRrr/pirateplot.html" class="uri">https://bookdown.org/ndphillips/YaRrr/pirateplot.html</a>): * VDEP of each parcel (dots) * Mean (central horizontal bar) * Density (“bean” or colored polygon) * Standard Deviation (box)</p>
+<pre class="r"><code>yarrr::pirateplot(formula = VDEP ~ Protected + Version, 
+                  data = vdepLong,           
+                  main = &quot;Vegetation Depature over 3 versions&quot;,
+                  theme = 0,
+                  inf.method = &#39;sd&#39;,
+                  pal = &quot;southpark&quot;, # southpark color palette
+                  bean.f.o = .6, # Bean fill
+                  point.o = .3, # Points
+                  inf.f.o = .3, # Inference fill
+                  inf.b.o = .8, # Inference border
+                  avg.line.o = 0.7, # Average line
+                  bar.f.o = .3, # Bar
+                  inf.f.col = &quot;white&quot;, # Inf fill col
+                  inf.b.col = &quot;black&quot;, # Inf border col
+                  avg.line.col = &quot;black&quot;, # avg line col
+                  bar.f.col = gray(.8), # bar filling color
+                  point.pch = 21,
+                  point.bg = &quot;white&quot;,
+                  point.col = &quot;black&quot;,
+                  point.cex = .7)</code></pre>
+<p><img src="figure/VDEP-Protected.Rmd/unnamed-chunk-3-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="quick-take-home-messages" class="section level2">
+<h2>Quick Take Home Messages</h2>
 <ul>
-<li>LANDFIRE Vegetation Departure, Versions 105 (year 2001), 110 (2008), 130 (2012) (see <a href="https://www.landfire.gov/vdep.php" class="uri">https://www.landfire.gov/vdep.php</a>)</li>
-<li>LANDFIRE Biophysical Settings (represents historical ecosystems)</li>
-<li>TNC Parcels (<em>plus matched unprotected?</em>)</li>
+<li>VDEP does not vary over time, or between protection level.<br />
+</li>
+<li>Any variation could be due to methods, or actual change in vegetation conditions</li>
+<li>Recommend different approach</li>
 </ul>
-<p>Sarah shared data with Randy Swaty via Excel workbook. Randy then formatted data there using Pivot tables (careful! must filter, etc. appropriatedly. As of 31Aug2020 specifics not documented here), then saved specific data files as .csv files for charting in R.</p>
-<hr />
-<p><strong>Map of VDEP. Darker greens indicate areas where vegetation structure is closest to reference conditions.</strong> <img src="VDEP_QGIS_greens.jpg" width="100%" style="display: block; margin: auto;" /></p>
+<br>
+<p>
+<button type="button" class="btn btn-default btn-workflowr btn-workflowr-sessioninfo" data-toggle="collapse" data-target="#workflowr-sessioninfo" style="display: block;">
+<span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Session information
+</button>
+</p>
+<div id="workflowr-sessioninfo" class="collapse">
+<pre class="r"><code>sessionInfo()</code></pre>
+<pre><code>R version 3.6.2 (2019-12-12)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows 10 x64 (build 18362)
+
+Matrix products: default
+
+locale:
+[1] LC_COLLATE=English_United States.1252 
+[2] LC_CTYPE=English_United States.1252   
+[3] LC_MONETARY=English_United States.1252
+[4] LC_NUMERIC=C                          
+[5] LC_TIME=English_United States.1252    
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] yarrr_0.1.5            circlize_0.4.10        BayesFactor_0.9.12-4.2
+ [4] Matrix_1.2-18          coda_0.19-3            jpeg_0.1-8.1          
+ [7] forcats_0.5.0          stringr_1.4.0          dplyr_1.0.0           
+[10] purrr_0.3.4            tidyr_1.1.1            tibble_3.0.3          
+[13] ggplot2_3.3.2.9000     tidyverse_1.3.0        readr_1.3.1           
+
+loaded via a namespace (and not attached):
+ [1] Rcpp_1.0.5          mvtnorm_1.1-1       lubridate_1.7.9    
+ [4] lattice_0.20-41     gtools_3.8.2        utf8_1.1.4         
+ [7] assertthat_0.2.1    rprojroot_1.3-2     digest_0.6.25      
+[10] R6_2.4.1            cellranger_1.1.0    backports_1.1.8    
+[13] MatrixModels_0.4-1  reprex_0.3.0        evaluate_0.14      
+[16] httr_1.4.2          pillar_1.4.6        GlobalOptions_0.1.2
+[19] rlang_0.4.7         readxl_1.3.1        rstudioapi_0.11    
+[22] blob_1.2.1          rmarkdown_2.3       munsell_0.5.0      
+[25] broom_0.7.0         compiler_3.6.2      httpuv_1.5.4       
+[28] modelr_0.1.8        xfun_0.16           pkgconfig_2.0.3    
+[31] shape_1.4.4         htmltools_0.5.0     tidyselect_1.1.0   
+[34] workflowr_1.6.2     fansi_0.4.1         crayon_1.3.4       
+[37] dbplyr_1.4.4        withr_2.2.0         later_1.1.0.1      
+[40] grid_3.6.2          jsonlite_1.7.0      gtable_0.3.0       
+[43] lifecycle_0.2.0     DBI_1.1.0           git2r_0.27.1       
+[46] magrittr_1.5        scales_1.1.1        pbapply_1.4-2      
+[49] cli_2.0.2           stringi_1.4.6       fs_1.5.0           
+[52] promises_1.1.1      xml2_1.3.2          ellipsis_0.3.1     
+[55] generics_0.0.2      vctrs_0.3.2         tools_3.6.2        
+[58] glue_1.4.1          hms_0.5.3           parallel_3.6.2     
+[61] yaml_2.2.1          colorspace_1.4-1    rvest_0.3.6        
+[64] knitr_1.29          haven_2.3.1        </code></pre>
+</div>
 </div>
 
 
@@ -630,6 +723,8 @@ footer is added to webpages before the MathJax javascript. -->
 </script>
 
 
+</div>
+</div>
 
 </div>
 
@@ -662,6 +757,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

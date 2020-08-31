@@ -9,7 +9,7 @@ editor_options:
 
 ## Introduction
 
-Here I will explore with this workflowR package and will simply chart out parcel size.  
+We need to understand the size of the parcels to help us better predict how useful LANDFIRE data, especially Vegetation Departure may or may not be.
 
 ### Install libraries
 
