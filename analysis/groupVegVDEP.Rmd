@@ -7,7 +7,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-## Introduction
+## Introduction for us
 For fun exploring VDEP for  Grouped Vegetation Types within the file Sarah Hagen sent.  Data table made in Excel Pivot table.  Pivot table work required some specific actions:
 
 *  Used "Label_version" (e.g. LABEL_105) as a filter to remove "non-natural" vegetation types (e.g. Burnable Ag) and "Open Water"

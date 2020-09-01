@@ -10,11 +10,13 @@ editor_options:
 
 ## This site...
 
-was built in R-Studio with the [workflowR](https://jdblischak.github.io/workflowr/articles/wflow-01-getting-started.html#overview) package as a way to: 
+is a demo site built in R-Studio in a couple hours (**read:** not proofed, code not well annotated and no QAQC completed) with the [workflowR](https://jdblischak.github.io/workflowr/articles/wflow-01-getting-started.html#overview) package as a way to: 
 
 1. explore the potential of using LANDFIRE's [Vegetation Departure](https://www.landfire.gov/vdep.php) Dataset for TNC (and other) parcels
 2. demonstrate using a website to share code, data and outputs
 3. prompt more discussion about how to measure ecological condition
+
+While just a quick demo site we hope it evolves and provokes conversation.  Contact Randy Swaty at rswaty@tnc.org with questions.
 
 ## Quick methods
 To assess vegetation conditions over time, and inside/outside of protected areas Sarah Hagen did a "Combine" in ArcMap then joined in attributes of the following datasets:
