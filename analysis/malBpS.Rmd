@@ -1,0 +1,134 @@
+---
+title: "malBpS"
+author: "rswaty"
+date: "2020-09-14"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## Biophysical Settings for the MAL region (not "mal" as in "bad" as in Spanish)
+
+Exploring some basic questions about "representation" of Biophysical Settings (historic vegetation types) within and outside of TNC ownership, by region.
+
+GIS processing by Sarah Hagen.
+
+### Libraries
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+library(readr)
+library(tidyverse)
+library(ggpubr)
+```
+
+
+
+### Read in and wrangle datasets
+
+Need tidy data with these columns:
+
+* BPS_MODEL
+* In/Out (treatment essentially)
+* Acres
+* Percent of total 
+
+```{r}
+# read in data, removing unwanted colunms
+malConusBpS <- read_csv("data/malConusBpS.csv", 
+    col_types = cols(BPS_CODE = col_skip(), 
+                     BPS_MODEL = col_skip(), 
+                     ZONE = col_skip(), 
+                     GROUPID = col_skip(), 
+                     GROUPMODEL = col_skip(), 
+                     GROUPNAME = col_skip()))
+
+malNatureBpS <- read_csv("data/malNatureBpS.csv", 
+        col_types = cols(BPS_CODE = col_skip(), 
+                     BPS_MODEL = col_skip(), 
+                     ZONE = col_skip(), 
+                     GROUPID = col_skip(), 
+                     GROUPMODEL = col_skip(), 
+                     GROUPNAME = col_skip()))
+
+head(malConusBpS)
+head(malNatureBpS)
+
+# group and summarize by COUNT
+malConusBpS <- malConusBpS %>%
+  group_by(BPS_NAME, 
+           GROUPVEG,
+           InOrConus) %>%
+  summarise(sum(COUNT)) 
+# rename new column
+names(malConusBpS)[names(malConusBpS) == "sum(COUNT)"] <- "COUNT"
+
+malNatureBpS <- malNatureBpS %>%
+  group_by(BPS_NAME, 
+           GROUPVEG,
+           InOrConus) %>%
+  summarise(sum(COUNT))
+
+# rename new column
+names(malNatureBpS)[names(malNatureBpS) == "sum(COUNT)"] <- "COUNT"
+
+# add in acres and percent
+malConusBpS <- malConusBpS %>%
+  mutate(acres = (COUNT*0.222)) %>%
+  mutate(percent = (COUNT/(sum(COUNT)*100)))
+
+malNatureBpS <- malNatureBpS %>%
+  mutate(acres = (COUNT*0.222)) %>%
+  mutate(percent = (COUNT/(sum(COUNT)*100)))
+
+# add tables-make long
+malBpS <- rbind(malConusBpS, malNatureBpS)
+
+#merge to compare side by side
+
+mergedMalBpS <- merge(malConusBpS, malNatureBpS, by = "BPS_NAME") %>%
+  mutate(difference = percent.x - percent.y) %>%
+  mutate(percentTotal = (acres.y/acres.x)*100)
+
+
+
+
+```
+
+
+
+### Percent of Total ("representation")
+
+```{r, fig.width=12, fig.height=8}
+
+malRep <-
+ggdotchart(mergedMalBpS, x = "BPS_NAME", y = "percentTotal",
+           color = "GROUPVEG.x",                                # Color by groups
+           palette = c("#00AFBB", "#E7B800", "#FC4E07", "#7d0b0b", "#7d0b0b", "#2b2424" ), # Custom color palette
+           sorting = "descending",                       # Sort value in descending order
+           add = "segments",                             # Add segments from y = 0 to dots
+           rotate = TRUE,                                # Rotate vertically
+           group = "GROUPVEG.x",                                # Order by groups
+           dot.size = 6,                                 # Large dot size
+           ggtheme = theme_pubr()                        # ggplot2 theme
+           )
+
+malRep
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

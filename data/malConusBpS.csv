@@ -1,0 +1,157 @@
+BPS_CODE,ZONE,BPS_MODEL,BPS_NAME,GROUPID,GROUPMODEL,GROUPNAME,GROUPVEG,COUNT,InOrConus
+13300,55,5513300,Southern Coastal Plain Dry Upland Hardwood Forest,301,301,Post Oak-Chinquapin Oak-Shortleaf Pine-1,Hardwood,84830,CONUS
+13350,55,5513350,Atlantic Coastal Plain Dry and Dry-Mesic Oak Forest,301,301,Post Oak-Chinquapin Oak-Shortleaf Pine-1,Hardwood,2801621,CONUS
+13430,55,5513430,Atlantic Coastal Plain Mesic Hardwood Forest,323,323,Beech-Cherrybark Oak-Tulip Tree-3,Hardwood,900300,CONUS
+13460,55,5513460,Atlantic Coastal Plain Fall-line Sandhills Longleaf Pine Woodland,315,315,Longleaf Pine-Pineland Threeawn-Beyrich Threeawn-1,Conifer,3713226,CONUS
+13470,55,5513470,Atlantic Coastal Plain Upland Longleaf Pine Woodland,315,315,Longleaf Pine-Pineland Threeawn-Beyrich Threeawn-1,Conifer,13148279,CONUS
+13490,55,5513490,East Gulf Coastal Plain Interior Upland Longleaf Pine Woodland,315,315,Longleaf Pine-Pineland Threeawn-Beyrich Threeawn-1,Conifer,416,CONUS
+13570,55,5513570,Southern Coastal Plain Mesic Slope Forest,323,323,Beech-Cherrybark Oak-Tulip Tree-3,Hardwood,1431285,CONUS
+14500,55,5514500,Southern Atlantic Coastal Plain Wet Pine Savanna and Flatwoods,397,397,Longleaf Pine-Slash Pine-Saw Palmetto-1,Riparian,643679,CONUS
+14540,55,5514540,East Gulf Coastal Plain Near-Coast Pine Flatwoods,397,397,Longleaf Pine-Slash Pine-Saw Palmetto-1,Riparian,34,CONUS
+14600,55,5514600,Southern Coastal Plain Nonriverine Cypress Dome,403,403,Pond Cypress-1,Riparian,492,CONUS
+14610,55,5514610,Southern Coastal Plain Seepage Swamp and Baygall,404,404,Sweetbay-Swamp Tupelo-Swamp Bay-3,Riparian,73082,CONUS
+14680,55,5514680,Atlantic Coastal Plain Streamhead Seepage Swamp-Pocosin-Baygall,408,408,Pond Pine-Swamp Tupelo-1,Riparian,438533,CONUS
+14730,55,5514730,Gulf and Atlantic Coastal Plain Floodplain Systems,418,418,Willow Oak-Water Oak-American Elm-3,Riparian,2606994,CONUS
+14740,55,5514740,Gulf and Atlantic Coastal Plain Small Stream Riparian Systems,421,421,American Sycamore-Sugarberry-Pine-3,Riparian,1050121,CONUS
+14800,55,5514800,Gulf and Atlantic Coastal Plain Swamp Systems,427,427,Bald Cypress-Atlantic White Cedar-Red Maple-5,Riparian,529198,CONUS
+14900,55,5514900,Gulf and Atlantic Coastal Plain Tidal Marsh Systems,435,435,Saltmeadow Cordgrass-Saltgrass-Gulf Cordgrass-2,Riparian,81595,CONUS
+13350,58,5813350,Atlantic Coastal Plain Dry and Dry-Mesic Oak Forest,301,301,Post Oak-Chinquapin Oak-Shortleaf Pine-1,Hardwood,1166975,CONUS
+13430,58,5813430,Atlantic Coastal Plain Mesic Hardwood Forest,310,310,Beech-White Oak-Southern Sugar Maple-3,Hardwood,5401391,CONUS
+13460,58,5813460,Atlantic Coastal Plain Fall-line Sandhills Longleaf Pine Woodland,315,315,Longleaf Pine-Pineland Threeawn-Beyrich Threeawn-1,Conifer,10861257,CONUS
+13470,58,5813470,Atlantic Coastal Plain Upland Longleaf Pine Woodland,315,315,Longleaf Pine-Pineland Threeawn-Beyrich Threeawn-1,Conifer,36910105,CONUS
+13570,58,5813570,Southern Coastal Plain Mesic Slope Forest,323,323,Beech-Cherrybark Oak-Tulip Tree-3,Hardwood,572911,CONUS
+13610,58,5813610,Central Atlantic Coastal Plain Maritime Forest,326,326,Live Oak-Wax Myrtle-3,Hardwood,788395,CONUS
+13820,58,5813820,Southern Atlantic Coastal Plain Maritime Forest,351,351,Longleaf Pine-Honduras Pine-Sand Live Oak-1,Hardwood-Conifer,558026,CONUS
+14260,58,5814260,Southern Atlantic Coastal Plain Dune and Maritime Grassland,381,381,Sea Oats-Saltmeadow Cordgrass-Shore Little Bluestem-2,Grassland,6531,CONUS
+14490,58,5814490,Central Atlantic Coastal Plain Wet Longleaf Pine Savanna and Flatwoods,397,397,Longleaf Pine-Slash Pine-Saw Palmetto-1,Riparian,12697587,CONUS
+14500,58,5814500,Southern Atlantic Coastal Plain Wet Pine Savanna and Flatwoods,397,397,Longleaf Pine-Slash Pine-Saw Palmetto-1,Riparian,5090904,CONUS
+14520,58,5814520,Atlantic Coastal Plain Peatland Pocosin and Canebrake,398,398,Pond Pine-Swamp Titi-Giant Cane-1,Riparian,4707140,CONUS
+14590,58,5814590,Atlantic Coastal Plain Clay-Based Carolina Bay Wetland,403,403,Pond Cypress-1,Riparian,397279,CONUS
+14680,58,5814680,Atlantic Coastal Plain Streamhead Seepage Swamp-Pocosin-Baygall,408,408,Pond Pine-Swamp Tupelo-1,Riparian,1234241,CONUS
+14730,58,5814730,Gulf and Atlantic Coastal Plain Floodplain Systems,418,418,Willow Oak-Water Oak-American Elm-3,Riparian,11284607,CONUS
+14740,58,5814740,Gulf and Atlantic Coastal Plain Small Stream Riparian Systems,421,421,American Sycamore-Sugarberry-Pine-3,Riparian,11273345,CONUS
+14800,58,5814800,Gulf and Atlantic Coastal Plain Swamp Systems,427,427,Bald Cypress-Atlantic White Cedar-Red Maple-5,Riparian,805906,CONUS
+14900,58,5814900,Gulf and Atlantic Coastal Plain Tidal Marsh Systems,435,435,Saltmeadow Cordgrass-Saltgrass-Gulf Cordgrass-2,Riparian,2126663,CONUS
+15010,58,5815010,Central Atlantic Coastal Plain Nonriverine Swamp and Wet Hardwood Forest,444,444,Atlantic White Cedar-4,Riparian,2318555,CONUS
+13150,59,5913150,Southern Appalachian Oak Forest,287,287,Chestnut Oak-White Oak-Chestnut-1,Hardwood,93581,CONUS
+13160,59,5913160,Southern Piedmont Mesic Forest,288,288,Beech-3,Hardwood,17256719,CONUS
+13180,59,5913180,Southern and Central Appalachian Cove Forest,291,291,Beech-Basswood-Yellow Buckeye-3,Hardwood,28902,CONUS
+13420,59,5913420,Piedmont Hardpan Woodland and Forest,309,309,Post Oak-White Ash-Little Bluestem Hardpan-1,Hardwood,166985,CONUS
+13510,59,5913510,Southeastern Interior Longleaf Pine Woodland,318,318,Longleaf Pine-Southern Red Oak-Little Bluestem-1,Conifer,561164,CONUS
+13520,59,5913520,Southern Appalachian Montane Pine Forest and Woodland,319,319,Table Mountain Pine-Pitch Pine-1,Conifer,14677,CONUS
+13530,59,5913530,Southern Appalachian Low-Elevation Pine Forest,320,320,Virginia Pine-Shortleaf Pine-1,Conifer,89504,CONUS
+13680,59,5913680,Southern Piedmont Dry Oak(-Pine) Forest,336,336,White Oak-Southern Red Oak-Shortleaf Pine-1,Hardwood-Conifer,55528470,CONUS
+14710,59,5914710,Central Interior and Appalachian Floodplain Systems,414,414,American Sycamore-Silver Maple-3,Riparian,4437819,CONUS
+14720,59,5914720,Central Interior and Appalachian Riparian Systems,416,416,River Birch-American Sycamore-3,Riparian,5526018,CONUS
+13090,57,5713090,Southern Appalachian Northern Hardwood Forest,284,284,Sugar Maple-Beech-Yellow Buckeye-5,Hardwood,899983,CONUS
+13150,57,5713150,Southern Appalachian Oak Forest,287,287,Chestnut Oak-White Oak-Chestnut-1,Hardwood,15822408,CONUS
+13160,57,5713160,Southern Piedmont Mesic Forest,288,288,Beech-3,Hardwood,85523,CONUS
+13170,57,5713170,Allegheny-Cumberland Dry Oak Forest and Woodland,290,290,White Oak-Scarlet Oak-Chestnut-1,Hardwood,8183554,CONUS
+13180,57,5713180,Southern and Central Appalachian Cove Forest,291,291,Beech-Basswood-Yellow Buckeye-3,Hardwood,5497476,CONUS
+13200,57,5713200,Central and Southern Appalachian Montane Oak Forest,292,292,Red Oak-Chestnut-Black Birch-1,Hardwood,5462145,CONUS
+13210,57,5713210,South-Central Interior Mesophytic Forest,293,293,Sugar Maple-Beech-Basswood-3,Hardwood,852651,CONUS
+13500,57,5713500,Central and Southern Appalachian Spruce-Fir Forest,317,317,Red Spruce-Fir-Yellow Birch-5,Conifer,218260,CONUS
+13520,57,5713520,Southern Appalachian Montane Pine Forest and Woodland,319,319,Table Mountain Pine-Pitch Pine-1,Conifer,2184008,CONUS
+13530,57,5713530,Southern Appalachian Low-Elevation Pine Forest,320,320,Virginia Pine-Shortleaf Pine-1,Conifer,1282800,CONUS
+13680,57,5713680,Southern Piedmont Dry Oak(-Pine) Forest,336,336,White Oak-Southern Red Oak-Shortleaf Pine-1,Hardwood-Conifer,743293,CONUS
+13760,57,5713760,Southern Ridge and Valley/Cumberland Dry Calcareous Forest,344,344,Post Oak-White Oak-Eastern Redcedar-1,Hardwood,2784992,CONUS
+14140,57,5714140,Southern Appalachian Grass and Shrub Bald,372,372,Catawba Rosebay-Flattened Oatgrass-3,Grassland,10576,CONUS
+14710,57,5714710,Central Interior and Appalachian Floodplain Systems,414,414,American Sycamore-Silver Maple-3,Riparian,686290,CONUS
+14720,57,5714720,Central Interior and Appalachian Riparian Systems,416,416,River Birch-American Sycamore-3,Riparian,4202220,CONUS
+13160,54,5413160,Southern Piedmont Mesic Forest,288,288,Beech-3,Hardwood,10354451,CONUS
+13430,54,5413430,Atlantic Coastal Plain Mesic Hardwood Forest,323,323,Beech-Cherrybark Oak-Tulip Tree-3,Hardwood,44,CONUS
+13460,54,5413460,Atlantic Coastal Plain Fall-line Sandhills Longleaf Pine Woodland,315,315,Longleaf Pine-Pineland Threeawn-Beyrich Threeawn-1,Conifer,165174,CONUS
+13510,54,5413510,Southeastern Interior Longleaf Pine Woodland,318,318,Longleaf Pine-Southern Red Oak-Little Bluestem-1,Conifer,432,CONUS
+13520,54,5413520,Southern Appalachian Montane Pine Forest and Woodland,319,319,Table Mountain Pine-Pitch Pine-1,Conifer,17507,CONUS
+13530,54,5413530,Southern Appalachian Low-Elevation Pine Forest,320,320,Virginia Pine-Shortleaf Pine-1,Conifer,295652,CONUS
+13680,54,5413680,Southern Piedmont Dry Oak(-Pine) Forest,336,336,White Oak-Southern Red Oak-Shortleaf Pine-1,Hardwood-Conifer,33098817,CONUS
+14710,54,5414710,Central Interior and Appalachian Floodplain Systems,414,414,American Sycamore-Silver Maple-3,Riparian,1774637,CONUS
+14720,54,5414720,Central Interior and Appalachian Riparian Systems,416,416,River Birch-American Sycamore-3,Riparian,5192713,CONUS
+13030,60,6013030,Northeastern Interior Dry-Mesic Oak Forest,279,279,White Oak-Black Oak-White Pine-1,Hardwood,1753844,CONUS
+13160,60,6013160,Southern Piedmont Mesic Forest,288,288,Beech-3,Hardwood,2169723,CONUS
+13240,60,6013240,Northern Atlantic Coastal Plain Hardwood Forest,296,296,White Oak-Black Oak-Little Bluestem-1,Hardwood,7599802,CONUS
+13350,60,6013350,Atlantic Coastal Plain Dry and Dry-Mesic Oak Forest,301,301,Post Oak-Chinquapin Oak-Shortleaf Pine-1,Hardwood,3227250,CONUS
+13430,60,6013430,Atlantic Coastal Plain Mesic Hardwood Forest,310,310,Beech-White Oak-Southern Sugar Maple-3,Hardwood,18262842,CONUS
+13470,60,6013470,Atlantic Coastal Plain Upland Longleaf Pine Woodland,315,315,Longleaf Pine-Pineland Threeawn-Beyrich Threeawn-1,Conifer,836322,CONUS
+13520,60,6013520,Southern Appalachian Montane Pine Forest and Woodland,319,319,Table Mountain Pine-Pitch Pine-1,Conifer,1092,CONUS
+13530,60,6013530,Southern Appalachian Low-Elevation Pine Forest,320,320,Virginia Pine-Shortleaf Pine-1,Conifer,39192,CONUS
+13550,60,6013550,Northern Atlantic Coastal Plain Pitch Pine Barrens,321,321,Pitch Pine-Scrub Oak-1,Conifer,44136,CONUS
+13610,60,6013610,Central Atlantic Coastal Plain Maritime Forest,326,326,Live Oak-Wax Myrtle-3,Hardwood,124121,CONUS
+13680,60,6013680,Southern Piedmont Dry Oak(-Pine) Forest,336,336,White Oak-Southern Red Oak-Shortleaf Pine-1,Hardwood-Conifer,2811288,CONUS
+13690,60,6013690,Central Appalachian Dry Oak-Pine Forest,337,337,Chestnut Oak-Virginia Pine-White Pine-3,Hardwood-Conifer,769015,CONUS
+13700,60,6013700,Appalachian (Hemlock-)Northern Hardwood Forest,338,338,Beech-Hemlock-Sugar Maple-5,Hardwood,1579222,CONUS
+13750,60,6013750,Eastern Serpentine Woodland,343,343,White Oak-Pine-Serpentine Forbs-1,Hardwood-Conifer,387,CONUS
+13770,60,6013770,Central Appalachian Pine-Oak Rocky Woodland,345,345,Red Pine-Pitch Pine-Black Oak-3,Hardwood-Conifer,52771,CONUS
+13790,60,6013790,Northern Atlantic Coastal Plain Maritime Forest,347,347,Scarlet Oak-Black Oak-American Holly-1,Hardwood-Conifer,805965,CONUS
+14000,60,6014000,Central Appalachian Alkaline Glade and Woodland,362,362,Redcedar-Chinquapin Oak-Redbud-2,Savanna,163152,CONUS
+14360,60,6014360,Northern Atlantic Coastal Plain Dune and Swale,388,388,Sea Oats-1,Grassland,450904,CONUS
+14490,60,6014490,Central Atlantic Coastal Plain Wet Longleaf Pine Savanna and Flatwoods,397,397,Longleaf Pine-Slash Pine-Saw Palmetto-1,Riparian,35505,CONUS
+14520,60,6014520,Atlantic Coastal Plain Peatland Pocosin and Canebrake,398,398,Pond Pine-Swamp Titi-Giant Cane-1,Riparian,129644,CONUS
+14680,60,6014680,Atlantic Coastal Plain Streamhead Seepage Swamp-Pocosin-Baygall,408,408,Pond Pine-Swamp Tupelo-1,Riparian,167062,CONUS
+14710,60,6014710,Central Interior and Appalachian Floodplain Systems,414,414,American Sycamore-Silver Maple-3,Riparian,200198,CONUS
+14720,60,6014720,Central Interior and Appalachian Riparian Systems,416,416,River Birch-American Sycamore-3,Riparian,96530,CONUS
+14730,60,6014730,Gulf and Atlantic Coastal Plain Floodplain Systems,418,418,Willow Oak-Water Oak-American Elm-3,Riparian,3003330,CONUS
+14740,60,6014740,Gulf and Atlantic Coastal Plain Small Stream Riparian Systems,421,421,American Sycamore-Sugarberry-Pine-3,Riparian,1714247,CONUS
+14790,60,6014790,Central Interior and Appalachian Swamp Systems,426,426,Red Maple-Black Ash-Blackgum-5,Riparian,55241,CONUS
+14800,60,6014800,Gulf and Atlantic Coastal Plain Swamp Systems,427,427,Bald Cypress-Atlantic White Cedar-Red Maple-5,Riparian,2937746,CONUS
+14900,60,6014900,Gulf and Atlantic Coastal Plain Tidal Marsh Systems,435,435,Saltmeadow Cordgrass-Saltgrass-Gulf Cordgrass-2,Riparian,1859408,CONUS
+15010,60,6015010,Central Atlantic Coastal Plain Nonriverine Swamp and Wet Hardwood Forest,444,444,Atlantic White Cedar-4,Riparian,2117457,CONUS
+13030,61,6113030,Northeastern Interior Dry-Mesic Oak Forest,279,279,White Oak-Black Oak-White Pine-1,Hardwood,26502868,CONUS
+13150,61,6113150,Southern Appalachian Oak Forest,287,287,Chestnut Oak-White Oak-Chestnut-1,Hardwood,86002,CONUS
+13160,61,6113160,Southern Piedmont Mesic Forest,288,288,Beech-3,Hardwood,781644,CONUS
+13170,61,6113170,Allegheny-Cumberland Dry Oak Forest and Woodland,290,290,White Oak-Scarlet Oak-Chestnut-1,Hardwood,2029208,CONUS
+13180,61,6113180,Southern and Central Appalachian Cove Forest,291,291,Beech-Basswood-Yellow Buckeye-3,Hardwood,3103176,CONUS
+13200,61,6113200,Central and Southern Appalachian Montane Oak Forest,292,292,Red Oak-Chestnut-Black Birch-1,Hardwood,2324923,CONUS
+13210,61,6113210,South-Central Interior Mesophytic Forest,293,293,Sugar Maple-Beech-Basswood-3,Hardwood,3949103,CONUS
+13400,61,6113400,Appalachian Shale Barrens,308,308,Chestnut Oak-Virginia Pine-Rockcress-5,Hardwood,9721,CONUS
+13500,61,6113500,Central and Southern Appalachian Spruce-Fir Forest,317,317,Red Spruce-Fir-Yellow Birch-5,Conifer,2432910,CONUS
+13520,61,6113520,Southern Appalachian Montane Pine Forest and Woodland,319,319,Table Mountain Pine-Pitch Pine-1,Conifer,81247,CONUS
+13530,61,6113530,Southern Appalachian Low-Elevation Pine Forest,320,320,Virginia Pine-Shortleaf Pine-1,Conifer,42523,CONUS
+13680,61,6113680,Southern Piedmont Dry Oak(-Pine) Forest,336,336,White Oak-Southern Red Oak-Shortleaf Pine-1,Hardwood-Conifer,2253586,CONUS
+13690,61,6113690,Central Appalachian Dry Oak-Pine Forest,337,337,Chestnut Oak-Virginia Pine-White Pine-3,Hardwood-Conifer,7389534,CONUS
+13700,61,6113700,Appalachian (Hemlock-)Northern Hardwood Forest,338,338,Beech-Hemlock-Sugar Maple-5,Hardwood,2398276,CONUS
+13760,61,6113760,Southern Ridge and Valley/Cumberland Dry Calcareous Forest,344,344,Post Oak-White Oak-Eastern Redcedar-1,Hardwood,234163,CONUS
+13770,61,6113770,Central Appalachian Pine-Oak Rocky Woodland,345,345,Red Pine-Pitch Pine-Black Oak-3,Hardwood-Conifer,436047,CONUS
+14000,61,6114000,Central Appalachian Alkaline Glade and Woodland,362,362,Redcedar-Chinquapin Oak-Redbud-2,Savanna,192837,CONUS
+14710,61,6114710,Central Interior and Appalachian Floodplain Systems,414,414,American Sycamore-Silver Maple-3,Riparian,976828,CONUS
+14720,61,6114720,Central Interior and Appalachian Riparian Systems,416,416,River Birch-American Sycamore-3,Riparian,5236636,CONUS
+14790,61,6114790,Central Interior and Appalachian Swamp Systems,426,426,Red Maple-Black Ash-Blackgum-5,Riparian,176803,CONUS
+13030,62,6213030,Northeastern Interior Dry-Mesic Oak Forest,279,279,White Oak-Black Oak-White Pine-1,Hardwood,13442065,CONUS
+13100,62,6213100,North-Central Interior Dry-Mesic Oak Forest and Woodland,285,285,White Oak-Black Oak-Mockernut Hickory-1,Hardwood,206889,CONUS
+13130,62,6213130,North-Central Interior Beech-Maple Forest,286,286,Sugar Maple-Beech-Basswood-5,Hardwood,686058,CONUS
+13170,62,6213170,Allegheny-Cumberland Dry Oak Forest and Woodland,290,290,White Oak-Scarlet Oak-Chestnut-1,Hardwood,7915419,CONUS
+13210,62,6213210,South-Central Interior Mesophytic Forest,293,293,Sugar Maple-Beech-Basswood-3,Hardwood,4208311,CONUS
+13700,62,6213700,Appalachian (Hemlock-)Northern Hardwood Forest,338,338,Beech-Hemlock-Sugar Maple-5,Hardwood,1050315,CONUS
+14710,62,6214710,Central Interior and Appalachian Floodplain Systems,412,412,Silver Maple-American Sycamore-Black Willow-3,Riparian,923855,CONUS
+14720,62,6214720,Central Interior and Appalachian Riparian Systems,416,416,River Birch-American Sycamore-3,Riparian,1856429,CONUS
+14790,62,6214790,Central Interior and Appalachian Swamp Systems,426,426,Red Maple-Black Ash-Blackgum-5,Riparian,21339,CONUS
+14930,62,6214930,Central Interior and Appalachian Shrub-Herbaceous Wetland Systems,438,438,Upright Sedge-Bluejoint Grass-2,Riparian,19,CONUS
+15180,62,6215180,North-Central Interior Wet Flatwoods,452,452,Pin Oak-Swamp White Oak-Maple-5,Hardwood,14623,CONUS
+13100,52,5213100,North-Central Interior Dry-Mesic Oak Forest and Woodland,285,285,White Oak-Black Oak-Mockernut Hickory-1,Hardwood,2162,CONUS
+13110,52,5213110,North-Central Interior Dry Oak Forest and Woodland,285,285,White Oak-Black Oak-Mockernut Hickory-1,Hardwood,174,CONUS
+13940,52,5213940,North-Central Interior Oak Savanna,359,359,White Oak-Bur Oak-Big Bluestem-1,Hardwood,1174,CONUS
+14210,52,5214210,Central Tallgrass Prairie,377,377,Big Bluestem-Switchgrass-2,Grassland,26,CONUS
+14710,52,5214710,Central Interior and Appalachian Floodplain Systems,412,412,Silver Maple-American Sycamore-Black Willow-3,Riparian,1314,CONUS
+14930,52,5214930,Central Interior and Appalachian Shrub-Herbaceous Wetland Systems,438,438,Upright Sedge-Bluejoint Grass-2,Riparian,7,CONUS
+13050,53,5313050,Southern Interior Low Plateau Dry-Mesic Oak Forest,281,281,White Oak-Black Oak-Chestnut Oak-2,Hardwood,24111,CONUS
+13090,53,5313090,Southern Appalachian Northern Hardwood Forest,284,284,Sugar Maple-Beech-Yellow Buckeye-5,Hardwood,200826,CONUS
+13150,53,5313150,Southern Appalachian Oak Forest,287,287,Chestnut Oak-White Oak-Chestnut-1,Hardwood,1608521,CONUS
+13170,53,5313170,Allegheny-Cumberland Dry Oak Forest and Woodland,289,289,White Oak-Southern Red Oak-Chestnut-1,Hardwood,12173827,CONUS
+13180,53,5313180,Southern and Central Appalachian Cove Forest,291,291,Beech-Basswood-Yellow Buckeye-3,Hardwood,2154192,CONUS
+13210,53,5313210,South-Central Interior Mesophytic Forest,293,293,Sugar Maple-Beech-Basswood-3,Hardwood,23502028,CONUS
+13520,53,5313520,Southern Appalachian Montane Pine Forest and Woodland,319,319,Table Mountain Pine-Pitch Pine-1,Conifer,22906,CONUS
+13530,53,5313530,Southern Appalachian Low-Elevation Pine Forest,320,320,Virginia Pine-Shortleaf Pine-1,Conifer,20208,CONUS
+13630,53,5313630,Central Interior Highlands Dry Acidic Glade and Barrens,329,329,Post Oak-Blackjack Oak-Black Hickory-1,Hardwood,1846,CONUS
+13700,53,5313700,Appalachian (Hemlock-)Northern Hardwood Forest,338,338,Beech-Hemlock-Sugar Maple-5,Hardwood,479712,CONUS
+13760,53,5313760,Southern Ridge and Valley/Cumberland Dry Calcareous Forest,344,344,Post Oak-White Oak-Eastern Redcedar-1,Hardwood,220221,CONUS
+14010,53,5314010,Central Interior Highlands Calcareous Glade and Barrens,363,363,Little Bluestem-Big Bluestem-Rosinweed-1,Grassland,7941,CONUS
+14710,53,5314710,Central Interior and Appalachian Floodplain Systems,414,414,American Sycamore-Silver Maple-3,Riparian,1263495,CONUS
+14720,53,5314720,Central Interior and Appalachian Riparian Systems,416,416,River Birch-American Sycamore-3,Riparian,3376985,CONUS
+14790,53,5314790,Central Interior and Appalachian Swamp Systems,426,426,Red Maple-Black Ash-Blackgum-5,Riparian,68672,CONUS
+13050,47,4713050,Southern Interior Low Plateau Dry-Mesic Oak Forest,281,281,White Oak-Black Oak-Chestnut Oak-2,Hardwood,27,CONUS
+13100,47,4713100,North-Central Interior Dry-Mesic Oak Forest and Woodland,285,285,White Oak-Black Oak-Mockernut Hickory-1,Hardwood,177,CONUS
+13130,47,4713130,North-Central Interior Beech-Maple Forest,286,286,Sugar Maple-Beech-Basswood-5,Hardwood,864,CONUS
+13210,47,4713210,South-Central Interior Mesophytic Forest,293,293,Sugar Maple-Beech-Basswood-3,Hardwood,346,CONUS
+13630,47,4713630,Central Interior Highlands Dry Acidic Glade and Barrens,329,329,Post Oak-Blackjack Oak-Black Hickory-1,Hardwood,337,CONUS
+14710,47,4714710,Central Interior and Appalachian Floodplain Systems,414,414,American Sycamore-Silver Maple-3,Riparian,947,CONUS
+14790,47,4714790,Central Interior and Appalachian Swamp Systems,426,426,Red Maple-Black Ash-Blackgum-5,Riparian,73,CONUS

@@ -15,8 +15,8 @@ navbar:
     href: differentApproach.html
   - text: Data Tables
     href: dataTables.html
-  - text: About
-    href: about.html
+  - text: MAL BpSs
+    href: malBpS.HTML
   - text: License
     href: license.html
   right:

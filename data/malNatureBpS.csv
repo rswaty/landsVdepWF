@@ -1,0 +1,118 @@
+BPS_CODE,ZONE,BPS_MODEL,BPS_NAME,GROUPID,GROUPMODEL,GROUPNAME,GROUPVEG,COUNT,InOrConus
+13300,55,5513300,Southern Coastal Plain Dry Upland Hardwood Forest,301,301,Post Oak-Chinquapin Oak-Shortleaf Pine-1,Hardwood,9,IN
+13350,55,5513350,Atlantic Coastal Plain Dry and Dry-Mesic Oak Forest,301,301,Post Oak-Chinquapin Oak-Shortleaf Pine-1,Hardwood,253,IN
+13430,55,5513430,Atlantic Coastal Plain Mesic Hardwood Forest,323,323,Beech-Cherrybark Oak-Tulip Tree-3,Hardwood,17,IN
+13470,55,5513470,Atlantic Coastal Plain Upland Longleaf Pine Woodland,315,315,Longleaf Pine-Pineland Threeawn-Beyrich Threeawn-1,Conifer,1710,IN
+13570,55,5513570,Southern Coastal Plain Mesic Slope Forest,323,323,Beech-Cherrybark Oak-Tulip Tree-3,Hardwood,65,IN
+14610,55,5514610,Southern Coastal Plain Seepage Swamp and Baygall,404,404,Sweetbay-Swamp Tupelo-Swamp Bay-3,Riparian,1,IN
+14680,55,5514680,Atlantic Coastal Plain Streamhead Seepage Swamp-Pocosin-Baygall,408,408,Pond Pine-Swamp Tupelo-1,Riparian,64,IN
+14730,55,5514730,Gulf and Atlantic Coastal Plain Floodplain Systems,418,418,Willow Oak-Water Oak-American Elm-3,Riparian,887,IN
+14740,55,5514740,Gulf and Atlantic Coastal Plain Small Stream Riparian Systems,421,421,American Sycamore-Sugarberry-Pine-3,Riparian,16,IN
+14800,55,5514800,Gulf and Atlantic Coastal Plain Swamp Systems,427,427,Bald Cypress-Atlantic White Cedar-Red Maple-5,Riparian,67,IN
+13350,58,5813350,Atlantic Coastal Plain Dry and Dry-Mesic Oak Forest,301,301,Post Oak-Chinquapin Oak-Shortleaf Pine-1,Hardwood,646,IN
+13430,58,5813430,Atlantic Coastal Plain Mesic Hardwood Forest,310,310,Beech-White Oak-Southern Sugar Maple-3,Hardwood,8010,IN
+13460,58,5813460,Atlantic Coastal Plain Fall-line Sandhills Longleaf Pine Woodland,315,315,Longleaf Pine-Pineland Threeawn-Beyrich Threeawn-1,Conifer,26684,IN
+13470,58,5813470,Atlantic Coastal Plain Upland Longleaf Pine Woodland,315,315,Longleaf Pine-Pineland Threeawn-Beyrich Threeawn-1,Conifer,13150,IN
+13570,58,5813570,Southern Coastal Plain Mesic Slope Forest,323,323,Beech-Cherrybark Oak-Tulip Tree-3,Hardwood,2293,IN
+13610,58,5813610,Central Atlantic Coastal Plain Maritime Forest,326,326,Live Oak-Wax Myrtle-3,Hardwood,5742,IN
+13820,58,5813820,Southern Atlantic Coastal Plain Maritime Forest,351,351,Longleaf Pine-Honduras Pine-Sand Live Oak-1,Hardwood-Conifer,5264,IN
+14490,58,5814490,Central Atlantic Coastal Plain Wet Longleaf Pine Savanna and Flatwoods,397,397,Longleaf Pine-Slash Pine-Saw Palmetto-1,Riparian,33414,IN
+14500,58,5814500,Southern Atlantic Coastal Plain Wet Pine Savanna and Flatwoods,397,397,Longleaf Pine-Slash Pine-Saw Palmetto-1,Riparian,6994,IN
+14520,58,5814520,Atlantic Coastal Plain Peatland Pocosin and Canebrake,398,398,Pond Pine-Swamp Titi-Giant Cane-1,Riparian,34930,IN
+14590,58,5814590,Atlantic Coastal Plain Clay-Based Carolina Bay Wetland,403,403,Pond Cypress-1,Riparian,2723,IN
+14680,58,5814680,Atlantic Coastal Plain Streamhead Seepage Swamp-Pocosin-Baygall,408,408,Pond Pine-Swamp Tupelo-1,Riparian,1934,IN
+14730,58,5814730,Gulf and Atlantic Coastal Plain Floodplain Systems,418,418,Willow Oak-Water Oak-American Elm-3,Riparian,66440,IN
+14740,58,5814740,Gulf and Atlantic Coastal Plain Small Stream Riparian Systems,421,421,American Sycamore-Sugarberry-Pine-3,Riparian,14597,IN
+14800,58,5814800,Gulf and Atlantic Coastal Plain Swamp Systems,427,427,Bald Cypress-Atlantic White Cedar-Red Maple-5,Riparian,5774,IN
+14900,58,5814900,Gulf and Atlantic Coastal Plain Tidal Marsh Systems,435,435,Saltmeadow Cordgrass-Saltgrass-Gulf Cordgrass-2,Riparian,6635,IN
+15010,58,5815010,Central Atlantic Coastal Plain Nonriverine Swamp and Wet Hardwood Forest,444,444,Atlantic White Cedar-4,Riparian,6071,IN
+13160,59,5913160,Southern Piedmont Mesic Forest,288,288,Beech-3,Hardwood,530,IN
+13510,59,5913510,Southeastern Interior Longleaf Pine Woodland,318,318,Longleaf Pine-Southern Red Oak-Little Bluestem-1,Conifer,120,IN
+13680,59,5913680,Southern Piedmont Dry Oak(-Pine) Forest,336,336,White Oak-Southern Red Oak-Shortleaf Pine-1,Hardwood-Conifer,1571,IN
+14710,59,5914710,Central Interior and Appalachian Floodplain Systems,414,414,American Sycamore-Silver Maple-3,Riparian,4,IN
+14720,59,5914720,Central Interior and Appalachian Riparian Systems,416,416,River Birch-American Sycamore-3,Riparian,206,IN
+13090,57,5713090,Southern Appalachian Northern Hardwood Forest,284,284,Sugar Maple-Beech-Yellow Buckeye-5,Hardwood,8067,IN
+13150,57,5713150,Southern Appalachian Oak Forest,287,287,Chestnut Oak-White Oak-Chestnut-1,Hardwood,44207,IN
+13160,57,5713160,Southern Piedmont Mesic Forest,288,288,Beech-3,Hardwood,284,IN
+13170,57,5713170,Allegheny-Cumberland Dry Oak Forest and Woodland,290,290,White Oak-Scarlet Oak-Chestnut-1,Hardwood,31899,IN
+13180,57,5713180,Southern and Central Appalachian Cove Forest,291,291,Beech-Basswood-Yellow Buckeye-3,Hardwood,22324,IN
+13200,57,5713200,Central and Southern Appalachian Montane Oak Forest,292,292,Red Oak-Chestnut-Black Birch-1,Hardwood,28353,IN
+13210,57,5713210,South-Central Interior Mesophytic Forest,293,293,Sugar Maple-Beech-Basswood-3,Hardwood,72,IN
+13500,57,5713500,Central and Southern Appalachian Spruce-Fir Forest,317,317,Red Spruce-Fir-Yellow Birch-5,Conifer,1591,IN
+13520,57,5713520,Southern Appalachian Montane Pine Forest and Woodland,319,319,Table Mountain Pine-Pitch Pine-1,Conifer,2003,IN
+13530,57,5713530,Southern Appalachian Low-Elevation Pine Forest,320,320,Virginia Pine-Shortleaf Pine-1,Conifer,1381,IN
+13680,57,5713680,Southern Piedmont Dry Oak(-Pine) Forest,336,336,White Oak-Southern Red Oak-Shortleaf Pine-1,Hardwood-Conifer,1502,IN
+13760,57,5713760,Southern Ridge and Valley/Cumberland Dry Calcareous Forest,344,344,Post Oak-White Oak-Eastern Redcedar-1,Hardwood,10719,IN
+14140,57,5714140,Southern Appalachian Grass and Shrub Bald,372,372,Catawba Rosebay-Flattened Oatgrass-3,Grassland,155,IN
+14710,57,5714710,Central Interior and Appalachian Floodplain Systems,414,414,American Sycamore-Silver Maple-3,Riparian,2195,IN
+14720,57,5714720,Central Interior and Appalachian Riparian Systems,416,416,River Birch-American Sycamore-3,Riparian,9539,IN
+13160,54,5413160,Southern Piedmont Mesic Forest,288,288,Beech-3,Hardwood,193,IN
+13530,54,5413530,Southern Appalachian Low-Elevation Pine Forest,320,320,Virginia Pine-Shortleaf Pine-1,Conifer,2,IN
+13680,54,5413680,Southern Piedmont Dry Oak(-Pine) Forest,336,336,White Oak-Southern Red Oak-Shortleaf Pine-1,Hardwood-Conifer,728,IN
+14710,54,5414710,Central Interior and Appalachian Floodplain Systems,414,414,American Sycamore-Silver Maple-3,Riparian,119,IN
+14720,54,5414720,Central Interior and Appalachian Riparian Systems,416,416,River Birch-American Sycamore-3,Riparian,161,IN
+13030,60,6013030,Northeastern Interior Dry-Mesic Oak Forest,279,279,White Oak-Black Oak-White Pine-1,Hardwood,6996,IN
+13160,60,6013160,Southern Piedmont Mesic Forest,288,288,Beech-3,Hardwood,4116,IN
+13240,60,6013240,Northern Atlantic Coastal Plain Hardwood Forest,296,296,White Oak-Black Oak-Little Bluestem-1,Hardwood,35666,IN
+13350,60,6013350,Atlantic Coastal Plain Dry and Dry-Mesic Oak Forest,301,301,Post Oak-Chinquapin Oak-Shortleaf Pine-1,Hardwood,17350,IN
+13430,60,6013430,Atlantic Coastal Plain Mesic Hardwood Forest,310,310,Beech-White Oak-Southern Sugar Maple-3,Hardwood,162549,IN
+13470,60,6013470,Atlantic Coastal Plain Upland Longleaf Pine Woodland,315,315,Longleaf Pine-Pineland Threeawn-Beyrich Threeawn-1,Conifer,5440,IN
+13520,60,6013520,Southern Appalachian Montane Pine Forest and Woodland,319,319,Table Mountain Pine-Pitch Pine-1,Conifer,18,IN
+13550,60,6013550,Northern Atlantic Coastal Plain Pitch Pine Barrens,321,321,Pitch Pine-Scrub Oak-1,Conifer,703,IN
+13610,60,6013610,Central Atlantic Coastal Plain Maritime Forest,326,326,Live Oak-Wax Myrtle-3,Hardwood,689,IN
+13680,60,6013680,Southern Piedmont Dry Oak(-Pine) Forest,336,336,White Oak-Southern Red Oak-Shortleaf Pine-1,Hardwood-Conifer,2340,IN
+13690,60,6013690,Central Appalachian Dry Oak-Pine Forest,337,337,Chestnut Oak-Virginia Pine-White Pine-3,Hardwood-Conifer,2457,IN
+13700,60,6013700,Appalachian (Hemlock-)Northern Hardwood Forest,338,338,Beech-Hemlock-Sugar Maple-5,Hardwood,5833,IN
+13770,60,6013770,Central Appalachian Pine-Oak Rocky Woodland,345,345,Red Pine-Pitch Pine-Black Oak-3,Hardwood-Conifer,1639,IN
+13790,60,6013790,Northern Atlantic Coastal Plain Maritime Forest,347,347,Scarlet Oak-Black Oak-American Holly-1,Hardwood-Conifer,18590,IN
+14000,60,6014000,Central Appalachian Alkaline Glade and Woodland,362,362,Redcedar-Chinquapin Oak-Redbud-2,Savanna,1083,IN
+14360,60,6014360,Northern Atlantic Coastal Plain Dune and Swale,388,388,Sea Oats-1,Grassland,14035,IN
+14490,60,6014490,Central Atlantic Coastal Plain Wet Longleaf Pine Savanna and Flatwoods,397,397,Longleaf Pine-Slash Pine-Saw Palmetto-1,Riparian,182,IN
+14520,60,6014520,Atlantic Coastal Plain Peatland Pocosin and Canebrake,398,398,Pond Pine-Swamp Titi-Giant Cane-1,Riparian,9370,IN
+14680,60,6014680,Atlantic Coastal Plain Streamhead Seepage Swamp-Pocosin-Baygall,408,408,Pond Pine-Swamp Tupelo-1,Riparian,2952,IN
+14710,60,6014710,Central Interior and Appalachian Floodplain Systems,414,414,American Sycamore-Silver Maple-3,Riparian,978,IN
+14720,60,6014720,Central Interior and Appalachian Riparian Systems,416,416,River Birch-American Sycamore-3,Riparian,775,IN
+14730,60,6014730,Gulf and Atlantic Coastal Plain Floodplain Systems,418,418,Willow Oak-Water Oak-American Elm-3,Riparian,63782,IN
+14740,60,6014740,Gulf and Atlantic Coastal Plain Small Stream Riparian Systems,421,421,American Sycamore-Sugarberry-Pine-3,Riparian,15091,IN
+14790,60,6014790,Central Interior and Appalachian Swamp Systems,426,426,Red Maple-Black Ash-Blackgum-5,Riparian,153,IN
+14800,60,6014800,Gulf and Atlantic Coastal Plain Swamp Systems,427,427,Bald Cypress-Atlantic White Cedar-Red Maple-5,Riparian,51931,IN
+14900,60,6014900,Gulf and Atlantic Coastal Plain Tidal Marsh Systems,435,435,Saltmeadow Cordgrass-Saltgrass-Gulf Cordgrass-2,Riparian,113744,IN
+15010,60,6015010,Central Atlantic Coastal Plain Nonriverine Swamp and Wet Hardwood Forest,444,444,Atlantic White Cedar-4,Riparian,24461,IN
+13030,61,6113030,Northeastern Interior Dry-Mesic Oak Forest,279,279,White Oak-Black Oak-White Pine-1,Hardwood,45923,IN
+13150,61,6113150,Southern Appalachian Oak Forest,287,287,Chestnut Oak-White Oak-Chestnut-1,Hardwood,2334,IN
+13160,61,6113160,Southern Piedmont Mesic Forest,288,288,Beech-3,Hardwood,4907,IN
+13180,61,6113180,Southern and Central Appalachian Cove Forest,291,291,Beech-Basswood-Yellow Buckeye-3,Hardwood,8187,IN
+13200,61,6113200,Central and Southern Appalachian Montane Oak Forest,292,292,Red Oak-Chestnut-Black Birch-1,Hardwood,33028,IN
+13210,61,6113210,South-Central Interior Mesophytic Forest,293,293,Sugar Maple-Beech-Basswood-3,Hardwood,24,IN
+13400,61,6113400,Appalachian Shale Barrens,308,308,Chestnut Oak-Virginia Pine-Rockcress-5,Hardwood,4,IN
+13500,61,6113500,Central and Southern Appalachian Spruce-Fir Forest,317,317,Red Spruce-Fir-Yellow Birch-5,Conifer,14222,IN
+13520,61,6113520,Southern Appalachian Montane Pine Forest and Woodland,319,319,Table Mountain Pine-Pitch Pine-1,Conifer,630,IN
+13530,61,6113530,Southern Appalachian Low-Elevation Pine Forest,320,320,Virginia Pine-Shortleaf Pine-1,Conifer,5,IN
+13680,61,6113680,Southern Piedmont Dry Oak(-Pine) Forest,336,336,White Oak-Southern Red Oak-Shortleaf Pine-1,Hardwood-Conifer,6796,IN
+13690,61,6113690,Central Appalachian Dry Oak-Pine Forest,337,337,Chestnut Oak-Virginia Pine-White Pine-3,Hardwood-Conifer,28968,IN
+13700,61,6113700,Appalachian (Hemlock-)Northern Hardwood Forest,338,338,Beech-Hemlock-Sugar Maple-5,Hardwood,5035,IN
+13760,61,6113760,Southern Ridge and Valley/Cumberland Dry Calcareous Forest,344,344,Post Oak-White Oak-Eastern Redcedar-1,Hardwood,268,IN
+13770,61,6113770,Central Appalachian Pine-Oak Rocky Woodland,345,345,Red Pine-Pitch Pine-Black Oak-3,Hardwood-Conifer,2792,IN
+14000,61,6114000,Central Appalachian Alkaline Glade and Woodland,362,362,Redcedar-Chinquapin Oak-Redbud-2,Savanna,459,IN
+14710,61,6114710,Central Interior and Appalachian Floodplain Systems,414,414,American Sycamore-Silver Maple-3,Riparian,4326,IN
+14720,61,6114720,Central Interior and Appalachian Riparian Systems,416,416,River Birch-American Sycamore-3,Riparian,12163,IN
+14790,61,6114790,Central Interior and Appalachian Swamp Systems,426,426,Red Maple-Black Ash-Blackgum-5,Riparian,107,IN
+13030,62,6213030,Northeastern Interior Dry-Mesic Oak Forest,279,279,White Oak-Black Oak-White Pine-1,Hardwood,1838,IN
+13130,62,6213130,North-Central Interior Beech-Maple Forest,286,286,Sugar Maple-Beech-Basswood-5,Hardwood,6,IN
+13170,62,6213170,Allegheny-Cumberland Dry Oak Forest and Woodland,290,290,White Oak-Scarlet Oak-Chestnut-1,Hardwood,798,IN
+13210,62,6213210,South-Central Interior Mesophytic Forest,293,293,Sugar Maple-Beech-Basswood-3,Hardwood,425,IN
+13700,62,6213700,Appalachian (Hemlock-)Northern Hardwood Forest,338,338,Beech-Hemlock-Sugar Maple-5,Hardwood,146,IN
+14710,62,6214710,Central Interior and Appalachian Floodplain Systems,412,412,Silver Maple-American Sycamore-Black Willow-3,Riparian,119,IN
+14720,62,6214720,Central Interior and Appalachian Riparian Systems,416,416,River Birch-American Sycamore-3,Riparian,192,IN
+13090,53,5313090,Southern Appalachian Northern Hardwood Forest,284,284,Sugar Maple-Beech-Yellow Buckeye-5,Hardwood,99,IN
+13150,53,5313150,Southern Appalachian Oak Forest,287,287,Chestnut Oak-White Oak-Chestnut-1,Hardwood,2497,IN
+13170,53,5313170,Allegheny-Cumberland Dry Oak Forest and Woodland,289,289,White Oak-Southern Red Oak-Chestnut-1,Hardwood,5958,IN
+13180,53,5313180,Southern and Central Appalachian Cove Forest,291,291,Beech-Basswood-Yellow Buckeye-3,Hardwood,6644,IN
+13210,53,5313210,South-Central Interior Mesophytic Forest,293,293,Sugar Maple-Beech-Basswood-3,Hardwood,22097,IN
+13520,53,5313520,Southern Appalachian Montane Pine Forest and Woodland,319,319,Table Mountain Pine-Pitch Pine-1,Conifer,3,IN
+13530,53,5313530,Southern Appalachian Low-Elevation Pine Forest,320,320,Virginia Pine-Shortleaf Pine-1,Conifer,7,IN
+13700,53,5313700,Appalachian (Hemlock-)Northern Hardwood Forest,338,338,Beech-Hemlock-Sugar Maple-5,Hardwood,22,IN
+13760,53,5313760,Southern Ridge and Valley/Cumberland Dry Calcareous Forest,344,344,Post Oak-White Oak-Eastern Redcedar-1,Hardwood,3058,IN
+14710,53,5314710,Central Interior and Appalachian Floodplain Systems,414,414,American Sycamore-Silver Maple-3,Riparian,2637,IN
+14720,53,5314720,Central Interior and Appalachian Riparian Systems,416,416,River Birch-American Sycamore-3,Riparian,3058,IN
+14790,53,5314790,Central Interior and Appalachian Swamp Systems,426,426,Red Maple-Black Ash-Blackgum-5,Riparian,170,IN
